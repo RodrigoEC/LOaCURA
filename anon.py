@@ -18,4 +18,7 @@ with open('anon.txt', 'r') as file:
 
     apelido = input('Coloque o seu identificador: ')
 
-    print(f'Você tem: --{sum(dict_apelidos[apelido])}-- centavos.')
+    if apelido not in dict_apelidos.keys():
+        print(f'\nO apelido {apelido} não existe.\nVerifique se você escreveu de forma correta\n')
+    else:
+        print(f'\nVocê tem: --{sum(dict_apelidos[apelido])}-- centavos.')
