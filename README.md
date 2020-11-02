@@ -29,10 +29,8 @@ cd LOaCURA
 python3 anon.py
 ```
 
-
-<br/>
 <div align=center> 
-    <i>É isso! Agora você não precisa contar centavos por centavos</i>
+    <p><i>É isso! Agora você não precisa contar centavos por centavos</i><p>
     <img src='./assets/the_end.gif'>
 </div>
 
